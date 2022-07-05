@@ -108,7 +108,11 @@ app.post("/api/send", (req, res) => {
         from:"testtmailforapp@gmail.com",
                  to:req.body.user.email,
             subject:"Mail from nodeApp",
-          text:"Happy new year my friend!!Here's wishing that the new year will bring joy, love, peace, and happiness to you"
+          text:"Happy new year my friend!!Here's wishing that the new year will bring joy, love, peace, and happiness to you",
+        html: `<div>
+            <h2>Account Created!</h2>
+            Click this link to 
+            <a href="${https://wishing-app.herokuapp.com/send}">verify your account</a></div>`
     
     };
     
