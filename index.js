@@ -110,7 +110,7 @@ app.post("/api/send", (req, res) => {
             subject:"Happy New Year 2022",
          
        html: `<p>Happy new year my friend!!Here's wishing that the new year will bring joy, love, peace, and happiness to you</p>
-       <p>Click <a href="https://wishing-app.herokuapp.com/send' + recovery_token + '">here</a> </p>`
+       <p>Click <a href="https://wishing-app.herokuapp.com/send">here</a> </p>`
     
     };
     
