@@ -93,7 +93,7 @@ app.use(cors());
 // }
 
 
-app.post("/api/send", (req, res) => {
+app.post("/send", (req, res) => {
     console.log(req.body);
   var email=req.body.email;
     var transporter = nodemailer.createTransport({
