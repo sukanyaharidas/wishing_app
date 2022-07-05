@@ -11,8 +11,8 @@ app.use(express.static('./dist/frontend'));
 let transporter=nodemailer.createTransport({
     service:"gmail",
     auth:{
-        user:"sukanyaharidas97@gmail.com",
-        pass:""
+          user:"testtmailforapp@gmail.com",
+        pass:"vrvxhgqxqrtfxtfd"
     }
 })
 
